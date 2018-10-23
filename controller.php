@@ -33,7 +33,6 @@ class Controller {
 			include("view/home.php");
 
 		}else if (preg_match('/^\/services$/i', $base_url)) {
-    		// Hand off to another router to handle /grouping/* URIs
 			$title = "Services | Template Page";
 			include("view/header.php");
 
