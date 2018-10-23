@@ -4,13 +4,11 @@
 
 class Controller {  
      public $model;
-     public $title;
-     public $path;   
+     public $title;  
   
      public function __construct()    
      {    
-        //$this->model = new Model();
-        $this->path = '/' . @$_GET['url'];  
+        //$this->model = new Model(); 
      }   
      
      public function invoke()  
